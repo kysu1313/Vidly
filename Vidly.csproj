@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
@@ -178,11 +179,28 @@
     <Compile Include="Migrations\202012050026211_InitialModel.Designer.cs">
       <DependentUpon>202012050026211_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012050044324_AddIsSubToCustomer.cs" />
+    <Compile Include="Migrations\202012050044324_AddIsSubToCustomer.Designer.cs">
+      <DependentUpon>202012050044324_AddIsSubToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050056306_AddMemType.cs" />
+    <Compile Include="Migrations\202012050056306_AddMemType.Designer.cs">
+      <DependentUpon>202012050056306_AddMemType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050058379_PopulateMemTypes.cs" />
+    <Compile Include="Migrations\202012050058379_PopulateMemTypes.Designer.cs">
+      <DependentUpon>202012050058379_PopulateMemTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050108395_ApplyAnnotationsToCustName.cs" />
+    <Compile Include="Migrations\202012050108395_ApplyAnnotationsToCustName.Designer.cs">
+      <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -246,6 +264,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -266,6 +285,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202012050026211_InitialModel.resx">
       <DependentUpon>202012050026211_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050044324_AddIsSubToCustomer.resx">
+      <DependentUpon>202012050044324_AddIsSubToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050056306_AddMemType.resx">
+      <DependentUpon>202012050056306_AddMemType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050058379_PopulateMemTypes.resx">
+      <DependentUpon>202012050058379_PopulateMemTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050108395_ApplyAnnotationsToCustName.resx">
+      <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

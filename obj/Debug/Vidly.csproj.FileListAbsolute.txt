@@ -104,3 +104,7 @@ K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.dll
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.pdb
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubToCustomer.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMemType.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMemTypes.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustName.resources
