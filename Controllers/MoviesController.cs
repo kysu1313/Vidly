@@ -10,6 +10,12 @@ namespace Vidly.Controllers
 {
     public class MoviesController : Controller
     {
+        private ApplicationDbContext _context;
+        public MoviesController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
         // GET: Movies/Random
         public ActionResult Random()
         {
@@ -54,6 +60,7 @@ namespace Vidly.Controllers
 
         public ActionResult Index(int? pageIndex, string sortBy)
         {
+            var movies = _context.Movies.ToList();
             if (!pageIndex.HasValue)
             {
                 pageIndex = 1;
@@ -63,7 +70,7 @@ namespace Vidly.Controllers
                 sortBy = "Name";
             }
 
-            return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
+            return View(movies);
         }
     }
 }

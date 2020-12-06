@@ -14,6 +14,8 @@ namespace Vidly.Controllers
         public CustomersController()
         {
             _context = new ApplicationDbContext();
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+            
         }
 
         protected override void Dispose(bool disposing)
