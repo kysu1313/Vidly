@@ -108,3 +108,9 @@ K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubToCustomer.resourc
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMemType.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMemTypes.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustName.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipName.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.Birthday.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddSubType.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.GenreTable.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.newstff.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDetailToMoview.resources

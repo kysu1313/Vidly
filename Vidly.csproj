@@ -195,9 +195,34 @@
     <Compile Include="Migrations\202012050108395_ApplyAnnotationsToCustName.Designer.cs">
       <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012050214442_AddMembershipName.cs" />
+    <Compile Include="Migrations\202012050214442_AddMembershipName.Designer.cs">
+      <DependentUpon>202012050214442_AddMembershipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050228084_Birthday.cs" />
+    <Compile Include="Migrations\202012050228084_Birthday.Designer.cs">
+      <DependentUpon>202012050228084_Birthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050250233_AddSubType.cs" />
+    <Compile Include="Migrations\202012050250233_AddSubType.Designer.cs">
+      <DependentUpon>202012050250233_AddSubType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050258269_GenreTable.cs" />
+    <Compile Include="Migrations\202012050258269_GenreTable.Designer.cs">
+      <DependentUpon>202012050258269_GenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012050259351_newstff.cs" />
+    <Compile Include="Migrations\202012050259351_newstff.Designer.cs">
+      <DependentUpon>202012050259351_newstff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012052359417_AddDetailToMoview.cs" />
+    <Compile Include="Migrations\202012052359417_AddDetailToMoview.Designer.cs">
+      <DependentUpon>202012052359417_AddDetailToMoview.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -265,6 +290,7 @@
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -297,6 +323,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012050108395_ApplyAnnotationsToCustName.resx">
       <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050214442_AddMembershipName.resx">
+      <DependentUpon>202012050214442_AddMembershipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050228084_Birthday.resx">
+      <DependentUpon>202012050228084_Birthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050250233_AddSubType.resx">
+      <DependentUpon>202012050250233_AddSubType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050258269_GenreTable.resx">
+      <DependentUpon>202012050258269_GenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012050259351_newstff.resx">
+      <DependentUpon>202012050259351_newstff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012052359417_AddDetailToMoview.resx">
+      <DependentUpon>202012052359417_AddDetailToMoview.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
