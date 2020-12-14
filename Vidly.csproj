@@ -175,49 +175,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202012050026211_InitialModel.cs" />
-    <Compile Include="Migrations\202012050026211_InitialModel.Designer.cs">
-      <DependentUpon>202012050026211_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\202012080036145_refresh.cs" />
+    <Compile Include="Migrations\202012080036145_refresh.Designer.cs">
+      <DependentUpon>202012080036145_refresh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202012050044324_AddIsSubToCustomer.cs" />
-    <Compile Include="Migrations\202012050044324_AddIsSubToCustomer.Designer.cs">
-      <DependentUpon>202012050044324_AddIsSubToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050056306_AddMemType.cs" />
-    <Compile Include="Migrations\202012050056306_AddMemType.Designer.cs">
-      <DependentUpon>202012050056306_AddMemType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050058379_PopulateMemTypes.cs" />
-    <Compile Include="Migrations\202012050058379_PopulateMemTypes.Designer.cs">
-      <DependentUpon>202012050058379_PopulateMemTypes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050108395_ApplyAnnotationsToCustName.cs" />
-    <Compile Include="Migrations\202012050108395_ApplyAnnotationsToCustName.Designer.cs">
-      <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050214442_AddMembershipName.cs" />
-    <Compile Include="Migrations\202012050214442_AddMembershipName.Designer.cs">
-      <DependentUpon>202012050214442_AddMembershipName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050228084_Birthday.cs" />
-    <Compile Include="Migrations\202012050228084_Birthday.Designer.cs">
-      <DependentUpon>202012050228084_Birthday.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050250233_AddSubType.cs" />
-    <Compile Include="Migrations\202012050250233_AddSubType.Designer.cs">
-      <DependentUpon>202012050250233_AddSubType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050258269_GenreTable.cs" />
-    <Compile Include="Migrations\202012050258269_GenreTable.Designer.cs">
-      <DependentUpon>202012050258269_GenreTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012050259351_newstff.cs" />
-    <Compile Include="Migrations\202012050259351_newstff.Designer.cs">
-      <DependentUpon>202012050259351_newstff.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202012052359417_AddDetailToMoview.cs" />
-    <Compile Include="Migrations\202012052359417_AddDetailToMoview.Designer.cs">
-      <DependentUpon>202012052359417_AddDetailToMoview.cs</DependentUpon>
+    <Compile Include="Migrations\202012132313579_ViewUpdates.cs" />
+    <Compile Include="Migrations\202012132313579_ViewUpdates.Designer.cs">
+      <DependentUpon>202012132313579_ViewUpdates.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -229,6 +193,7 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -291,6 +256,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Customers\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -309,38 +275,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202012050026211_InitialModel.resx">
-      <DependentUpon>202012050026211_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202012080036145_refresh.resx">
+      <DependentUpon>202012080036145_refresh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050044324_AddIsSubToCustomer.resx">
-      <DependentUpon>202012050044324_AddIsSubToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050056306_AddMemType.resx">
-      <DependentUpon>202012050056306_AddMemType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050058379_PopulateMemTypes.resx">
-      <DependentUpon>202012050058379_PopulateMemTypes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050108395_ApplyAnnotationsToCustName.resx">
-      <DependentUpon>202012050108395_ApplyAnnotationsToCustName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050214442_AddMembershipName.resx">
-      <DependentUpon>202012050214442_AddMembershipName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050228084_Birthday.resx">
-      <DependentUpon>202012050228084_Birthday.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050250233_AddSubType.resx">
-      <DependentUpon>202012050250233_AddSubType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050258269_GenreTable.resx">
-      <DependentUpon>202012050258269_GenreTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012050259351_newstff.resx">
-      <DependentUpon>202012050259351_newstff.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012052359417_AddDetailToMoview.resx">
-      <DependentUpon>202012052359417_AddDetailToMoview.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202012132313579_ViewUpdates.resx">
+      <DependentUpon>202012132313579_ViewUpdates.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -102,15 +102,6 @@ K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.dll
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.pdb
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.refresh.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubToCustomer.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMemType.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMemTypes.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustName.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipName.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.Birthday.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddSubType.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.GenreTable.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.newstff.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDetailToMoview.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ViewUpdates.resources
