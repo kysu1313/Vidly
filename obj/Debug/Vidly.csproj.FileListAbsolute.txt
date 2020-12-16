@@ -105,3 +105,5 @@ K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.pdb
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.refresh.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ViewUpdates.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingNewCustomerView.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertMovies.resources

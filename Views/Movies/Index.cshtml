@@ -28,8 +28,8 @@ else
                 {
 
                     <tr>
-                        <td>@Html.ActionLink(movie.Name, "Details", "Customers", new { id = movie.Id }, null)</td>
-                        @*<td>@movie.Genre</td>*@
+                        <td>@Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)</td>
+                        <td>@movie.Genre.Name</td>
                     </tr>
                 }
             </tbody>
