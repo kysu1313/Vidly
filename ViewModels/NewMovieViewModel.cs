@@ -17,6 +17,8 @@ namespace Vidly.ViewModels
         [StringLength(255)]
         public string Name { get; set; }
 
+        public Genre Genre { get; set; }
+
         [Display(Name = "Genre")]
         [Required]
         public byte? GenreId { get; set; }
@@ -54,6 +56,7 @@ namespace Vidly.ViewModels
             Name = movie.Name;
             ReleaseDate = movie.ReleaseDate;
             NumberInStock = movie.NumberInStock;
+            Genre = movie.Genre;
             GenreId = movie.GenreId;
         }
     }
