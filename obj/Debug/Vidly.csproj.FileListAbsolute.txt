@@ -105,3 +105,14 @@ K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.pdb
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.refresh.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.ViewUpdates.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdatingNewCustomerView.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertMovies.resources
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Web.Http.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Web.Http.xml
+K:\PROGRAMS\C#\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+K:\PROGRAMS\C#\Vidly\Vidly\bin\AutoMapper.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\AutoMapper.xml
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedCustomerDts.resources
