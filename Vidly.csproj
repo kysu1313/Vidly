@@ -222,9 +222,9 @@
     <Compile Include="Migrations\202012190011535_AddDrivingLiscenseToAppUser.Designer.cs">
       <DependentUpon>202012190011535_AddDrivingLiscenseToAppUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202012190022128_addedPhoneNumberToUser.cs" />
-    <Compile Include="Migrations\202012190022128_addedPhoneNumberToUser.Designer.cs">
-      <DependentUpon>202012190022128_addedPhoneNumberToUser.cs</DependentUpon>
+    <Compile Include="Migrations\202012190155559_AddUserPhoneNumber.cs" />
+    <Compile Include="Migrations\202012190155559_AddUserPhoneNumber.Designer.cs">
+      <DependentUpon>202012190155559_AddUserPhoneNumber.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -520,8 +520,8 @@
     <EmbeddedResource Include="Migrations\202012190011535_AddDrivingLiscenseToAppUser.resx">
       <DependentUpon>202012190011535_AddDrivingLiscenseToAppUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202012190022128_addedPhoneNumberToUser.resx">
-      <DependentUpon>202012190022128_addedPhoneNumberToUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202012190155559_AddUserPhoneNumber.resx">
+      <DependentUpon>202012190155559_AddUserPhoneNumber.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

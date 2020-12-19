@@ -156,7 +156,8 @@ namespace Vidly.Controllers
                 { 
                     UserName = model.Email, 
                     Email = model.Email,
-                    DrivingLiscense = model.DrivingLicense
+                    DrivingLiscense = model.DrivingLicense,
+                    UserPhoneNumber = model.UserPhoneNumber
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
@@ -377,7 +378,8 @@ namespace Vidly.Controllers
                 { 
                     UserName = model.Email, 
                     Email = model.Email,
-                    DrivingLiscense = model.DrivingLicense
+                    DrivingLiscense = model.DrivingLicense,
+                    UserPhoneNumber = model.UserPhoneNumber
                 };
 
                 var result = await UserManager.CreateAsync(user);

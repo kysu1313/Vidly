@@ -102,4 +102,4 @@ K:\PROGRAMS\C#\Vidly\Vidly\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
 K:\PROGRAMS\C#\Vidly\Vidly\bin\roslyn\System.Threading.Tasks.Extensions.dll
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLiscenseToAppUser.resources
-K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedPhoneNumberToUser.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddUserPhoneNumber.resources
