@@ -1,0 +1,29 @@
+﻿@model Vidly.ViewModels.RandomMovieViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Create a variable in a view*@
+@{ 
+    var className = Model.Customers.Count > 0 ? "popular" : null;
+}
+
+@*Create a header using previous variable as class name*@
+<h2 class="@className">@Model.Movie.Name</h2>
+
+@*Show customers if they exist*@
+@if (Model.Customers.Count == 0)
+{
+    <text>No one has rented this movie</text>
+}
+else
+{
+<ul>
+    @foreach (var customer in Model.Customers)
+    {
+        <li>@customer.Name</li>
+    }
+</ul>
+}
+

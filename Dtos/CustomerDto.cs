@@ -17,6 +17,14 @@ namespace Vidly.Dtos
 
         public bool IsSubscribedToNewsletter { get; set; }
 
+        [Required]
+        [StringLength(30)]
+        public string DriverLicense { get; set; }
+
+        [Required]
+        [StringLength(30)]
+        public string UserPhoneNumber { get; set; }
+
         public byte MembershipTypeId { get; set; }
 
         public MembershipTypeDto MembershipType { get; set; }

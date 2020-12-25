@@ -103,3 +103,13 @@ K:\PROGRAMS\C#\Vidly\Vidly\bin\roslyn\System.Threading.Tasks.Extensions.dll
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLiscenseToAppUser.resources
 K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddUserPhoneNumber.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAuthToViewCustomers.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingDriverLicenseAndPhoneNumberToCustomerClassesEverywhere.resources
+K:\PROGRAMS\C#\Vidly\Vidly\bin\Glimpse.Ado.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\Glimpse.AspNet.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\Glimpse.Core.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\Glimpse.EF6.dll
+K:\PROGRAMS\C#\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingRentals.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.Rentals.resources
+K:\PROGRAMS\C#\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNumberAvailable.resources

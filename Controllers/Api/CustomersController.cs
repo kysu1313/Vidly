@@ -19,17 +19,22 @@ namespace Vidly.Controllers.Api
             _context = new ApplicationDbContext();
         }
 
+
         // GET /api/customers
+        //[Authorize(Roles = RoleName.CanManageCustomers)]
         public IHttpActionResult GetCustomers()
         {
             var customerDtos = _context.Customers
                 .Include(c => c.MembershipType)
                 .ToList()
                 .Select(Mapper.Map<Customer, CustomerDto>);
+
             return Ok(customerDtos);
+
         }
 
         // GET /api/customers/1
+        //[Authorize(Roles = RoleName.CanManageCustomers)]
         public IHttpActionResult GetCustomer(int id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
@@ -42,6 +47,7 @@ namespace Vidly.Controllers.Api
         }
 
         // POST /api/customers
+        [Authorize(Roles = RoleName.CanManageCustomers)]
         [HttpPost]
         public IHttpActionResult CreateCustomer(CustomerDto customerDto)
         {
@@ -59,6 +65,7 @@ namespace Vidly.Controllers.Api
         }
 
         // PUT /api/customers/1
+        [Authorize(Roles = RoleName.CanManageCustomers)]
         [HttpPut]
         public void UpdateCustomer(int id, CustomerDto customerDto)
         {
@@ -78,6 +85,7 @@ namespace Vidly.Controllers.Api
         }
 
         // DELETE /api/customers/1
+        [Authorize(Roles = RoleName.CanManageCustomers)]
         [HttpDelete]
         public void DeleteCustomer(int id)
         {

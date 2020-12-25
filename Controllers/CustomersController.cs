@@ -7,6 +7,7 @@ using Vidly.Models;
 using System.Data.Entity;
 using System.Dynamic;
 using Vidly.ViewModels;
+using System.Runtime.Caching;
 
 namespace Vidly.Controllers
 {
@@ -23,6 +24,16 @@ namespace Vidly.Controllers
             //var customers = _context.Customers.Include(c => c.MembershipType).ToList();
             var customers = _context.Customers;
         }
+
+        //public ViewResult Index()
+        //{
+        //    if (MemoryCache.Default["Genres"] == null)
+        //    {
+        //        MemoryCache.Default["Genres"] = _context.Genres.ToList();
+        //    }
+        //    var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
+        //    return View();
+        //}
 
         /**
          * Remove a customer?
@@ -89,6 +100,11 @@ namespace Vidly.Controllers
          */
         public ActionResult Index()
         {
+            if (MemoryCache.Default["Genres"] == null)
+            {
+                MemoryCache.Default["Genres"] = _context.Genres.ToList();
+            }
+            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
             var customers = _context.Customers.Include(c => c.MembershipType).ToList();
             //var customers = _context.Customers.ToList();
             return View(customers);

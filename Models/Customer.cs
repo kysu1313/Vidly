@@ -20,6 +20,10 @@ namespace Vidly.Models
         [StringLength(30)]
         public string UserPhoneNumber { get; set; }
 
+        [Required]
+        [StringLength(30)]
+        public string DriverLicense { get; set; }
+
         [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
 
